@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/addData"
+        android:layout_width="match_parent"
+        android:text="Add to Book"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/queryData"
+        android:layout_width="match_parent"
+        android:text="Query from Book"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/updateData"
+        android:layout_width="match_parent"
+        android:text="update Book"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/deleteData"
+        android:layout_width="match_parent"
+        android:text="delete Book"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
